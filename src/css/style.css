@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 5.2rem;
+    transition: 0.5s;
+    /* background-color: aqua; */
+}
+.header-sec-1 {
+    height: 1.8rem;
+    background-color: #0D3B6D;
+    display: flex;
+    justify-content: space-between;
+}
+.head-sec-1-left {
+    margin-left: 10px;
+    display: flex;
+    gap: 14px;
+}
+.head-sec-1-left .svg-container svg{
+    margin-left: 7px;
+}
+#logo-div {
+    width: 180px;
+}
+#logo {
+    width: 100%;
+}
+.head-sec-1-left a {
+    display: block;
+}
+
+.head-sec-1-center {
+    display: flex;
+    gap: 17px;
+}
+.head-sec-1-center a {
+    color: white;
+}
+
+.head-sec-1-right {
+    /* margin-right: 10px; */
+    display: flex;
+    gap: 14px;
+}
+.head-sec-1-right a:nth-child(2) {
+    text-align: center;
+    height: 100%;
+    font-size: 15px;
+    background-color: #4AA7EB;
+    color: white;
+    padding: 6px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+header {
+    /* background-color: #09090A !important; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.container {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.header-sec-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    gap: 100px;
+    padding: 15px 0;
+    /* height: 100%; */
+}
+.header-sec-2 h1 {
+    font-size: 35px;
+    color: white;
+}
+.header-sec-2 ul {
+    margin-top: 14px;
+    display: flex;
+    gap: 20px;
+}
+#head-sec-2-btn {
+    border: 2px solid yellow;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+.header-sec-2 a, select {
+    color: white;
+}
+
+.review-section {
+    margin-top: 1.8rem;
+    background-color: aqua;
+    height: 45.4rem;
+    background-image: linear-gradient(rgba(26, 25, 24, 0.8) 0%, rgba(26, 25, 24, 0.8) 100%),
+        url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-content-container > div {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.review-headers-div {
+    width: 600px;
+    text-align: center;
+}
+.review-headers-div h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+}
+.review-headers-div h2 {
+    color: #EDE9E0;
+    font-size: 25px;
+}
+.review-cards {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.review-card {
+    height: 160px;
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    border: 0.01rem solid rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+}
+.review-card h3 {
+    line-height: 25px;
+}
+
+main {
+    background-color: bisque;
+    height: 500px;
+}
